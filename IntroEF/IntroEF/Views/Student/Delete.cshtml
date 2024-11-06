@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Your Details</h2>
+
+<h3>@Model.name</h3>
+<h3>@Model.cgpa</h3>
+<h3>@Model.id</h3>
+
+<h3>Are you sure you want to delete the information?</h3>
+@*<a class="btn btn-danger m-4">Yes</a>
+    <a class="btn btn-success m-4">No</a>*@
+
+
+<form method="post">
+    <input type="hidden" name="Id" value="@Model.id" />
+    @*<input disabled type="text" value="@Model.Cgpa" class="form-control" placeholder="Cgpa" name="Cgpa" />*@
+    <input type="submit" class="btn btn-success" value="Yes" />
+    <input type="submit" class="btn btn-success" value="No" />
+</form>

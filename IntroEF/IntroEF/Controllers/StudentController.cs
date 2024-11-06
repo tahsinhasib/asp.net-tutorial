@@ -49,5 +49,56 @@ namespace IntroEF.Controllers
             }
             return View(data);
         }
+
+
+
+
+        [HttpGet]
+        public ActionResult Edit(int id)
+        {
+            var data = db.Students.Find(id);
+            return View(data);
+        }
+
+
+
+        [HttpPost]
+        public ActionResult Edit(Student formObj)
+        {
+            var exObj = db.Students.Find(formObj.id);
+            formObj.cgpa = exObj.cgpa;
+            db.Entry(exObj).CurrentValues.SetValues(formObj);
+            //exObj.Name = formObj.Name;
+            //exObj.Cgpa = formObj.Cgpa;
+            db.SaveChanges();
+            return RedirectToAction("List");
+
+
+        }
+
+
+
+        // GET: Delete Confirmation
+        [HttpGet]
+        public ActionResult Delete(int id)
+        {
+            var data = db.Students.Find(id);
+            return View(data); // This view should have a confirmation button to trigger deletion
+        }
+
+        // POST: Confirm Delete
+        [HttpPost]
+        [ActionName("Delete")]
+        public ActionResult DeleteConfirmed(int id)
+        {
+            var data = db.Students.Find(id);
+
+            db.Students.Remove(data);
+            db.SaveChanges();
+    
+            return RedirectToAction("List"); // Redirect to the list page after deletion
+        }
+
+
     }
 }
