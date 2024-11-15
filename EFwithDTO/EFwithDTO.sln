@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFwithDTO", "EFwithDTO\EFwithDTO.csproj", "{8C9F93EE-209A-4BD7-A87D-45B514F3DBB3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFwithDTO", "EFwithDTO\EFwithDTO.csproj", "{1084B2F7-54B7-4D1B-9087-31B9554E0B8C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8C9F93EE-209A-4BD7-A87D-45B514F3DBB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8C9F93EE-209A-4BD7-A87D-45B514F3DBB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8C9F93EE-209A-4BD7-A87D-45B514F3DBB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8C9F93EE-209A-4BD7-A87D-45B514F3DBB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1084B2F7-54B7-4D1B-9087-31B9554E0B8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1084B2F7-54B7-4D1B-9087-31B9554E0B8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1084B2F7-54B7-4D1B-9087-31B9554E0B8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1084B2F7-54B7-4D1B-9087-31B9554E0B8C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {FF3C52DF-BCDF-4B1E-975E-C22686616060}
+		SolutionGuid = {25ED2A74-BEF9-48B8-B1EA-8B65896BAB10}
 	EndGlobalSection
 EndGlobal
