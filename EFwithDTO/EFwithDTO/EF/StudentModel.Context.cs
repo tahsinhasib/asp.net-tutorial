@@ -28,5 +28,7 @@ namespace EFwithDTO.EF
         public virtual DbSet<Cours> Courses { get; set; }
         public virtual DbSet<Department> Departments { get; set; }
         public virtual DbSet<Student> Students { get; set; }
+
+        public System.Data.Entity.DbSet<EFwithDTO.DTOs.StudentDTO> StudentDTOes { get; set; }
     }
 }

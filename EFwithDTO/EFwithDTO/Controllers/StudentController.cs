@@ -1,4 +1,4 @@
-﻿using EFwithDTO.DTOs;                           // new
+﻿using EFwithDTO.DTOs;
 using EFwithDTO.EF;
 using System;
 using System.Collections.Generic;
