@@ -10,6 +10,7 @@ Contents
 </ul>
 
 <div>
+	<img src="screenshots/intromvc_1.jpg">
 	<h3>Introduction to MVC</h3>
 	<h6>Step - 1</h6>
 	<p>
