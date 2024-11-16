@@ -3,9 +3,19 @@
 
 Contents
 <ul type="disc">
-	<li><a href="#">1. Introduction to MVC</a></li>
-	<li>2. Form Submission</li>
-	<li>3. Entity Framework</li>
-	<li>4. Entity Framework with DTO</li>
+	<li><a href="#">Introduction to MVC</a></li>
+	<li><a href="#">Form Submission</a></li>
+	<li><a href="#">Entity Framework</a></li>
+	<li><a href="#">Entity Framework with DTO</a></li>
 </ul>
 
+<div>
+	<h3>Introduction to MVC</h3>
+	<h6>Step - 1</h6>
+	<p>
+	Create <code>PortfolioController</code> first with the necessary methods <code>Bio</code> <code>Education</code> <code>Qualifications</code> <code>References</code>.
+	Again create <code>ProductController</code> with the methods <code>Create</code> & <code>List</code>.
+	</p>
+	<h6>Step - 2</h6>
+	<p>Add views for the created methods. For <code>Portfolio</code> the views are <code>Education</code> <code>Qualifications</code> <code>References</code></p>
+</div>
