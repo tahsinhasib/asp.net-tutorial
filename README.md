@@ -1,6 +1,6 @@
 # ASP.NET tutorial
 
-
+## Database first approach
 Contents
 <ul type="disc">
 	<li><a href="#">Introduction to MVC</a></li>
@@ -35,3 +35,24 @@ Contents
 	Import <code>using IntroMVC.Models</code> in <code>PortfolioController.cs</code>
 	</p>
 </div>
+
+
+## Code first approach
+Contents
+
+<h2>Steps for code first approach</h2>
+<div>
+1. Installing EF to project via nuget (needs internet connection)	(1)
+2. Initiate Model (Table, Classes & Context)						(1)
+3. Define Connection String in web.config of solution file			(1)
+4. Enable Migration													(1)
+	(a)	command: enable-migrations
+5. Adding migration													(*)
+	(a) command: add-migration [name]
+6. Updating database												(*)
+	(a) command: update-database
+	
+[migration -> code to sql]
+</div>
+
+
