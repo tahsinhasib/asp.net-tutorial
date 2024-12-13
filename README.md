@@ -12,7 +12,7 @@ Contents
 <div>
 	<h2>Introduction to MVC</h2>
 	<div>
-		<img src="screenshots/intromvc_1.jpg" width="60%">
+		<img src="screenshots/intromvc_1.jpg" width="20%">
 	</div>
 	<b>Step - 1</b>
 	<p>
@@ -24,7 +24,7 @@ Contents
 	</p>.
 	<b>Step - 3</b>
 	<div>
-		<img src="screenshots/intromvc_2.jpg" width="60%">
+		<img src="screenshots/intromvc_2.jpg" width="30%">
 	</div>
 	<i>Models -> Add -> Class</i>
 	<p>
@@ -42,16 +42,23 @@ Contents
 
 <h2>Steps for code first approach</h2>
 <div>
-1. Installing EF to project via nuget (needs internet connection)	(1) <br>
-2. Initiate Model (Table, Classes & Context)						(1) <br>
-3. Define Connection String in web.config of solution file			(1) <br>
-4. Enable Migration													(1) <br>
-	(a)	command: enable-migrations
-5. Adding migration													(*) <br>
-	(a) command: add-migration [name]
-6. Updating database												(*) <br>
-	(a) command: update-database
-	
+	<ol>
+		<li>Installing EF to project via nuget (needs internet connection)	(1)</li>
+		<li>Initiate Model (Table, Classes & Context)				(1)</li>
+		<li>Define Connection String in web.config of solution file		(1)</li>
+		<li>Enable Migration							(1)</li>
+		<ol>
+			<li>command: enable-migrations</li>
+		</ol>
+  		<li>Adding Migration							(*)</li>
+		<ol>
+			<li>command: add-migration [name]</li>
+		</ol>
+		<li>Updating database							(*)</li>
+		<ol>
+			<li>command: update-database</li>
+		</ol>
+	</ol>
 [migration -> code to sql]
 </div>
 
