@@ -42,14 +42,14 @@ Contents
 
 <h2>Steps for code first approach</h2>
 <div>
-1. Installing EF to project via nuget (needs internet connection)	(1)
-2. Initiate Model (Table, Classes & Context)						(1)
-3. Define Connection String in web.config of solution file			(1)
-4. Enable Migration													(1)
+1. Installing EF to project via nuget (needs internet connection)	(1) <br>
+2. Initiate Model (Table, Classes & Context)						(1) <br>
+3. Define Connection String in web.config of solution file			(1) <br>
+4. Enable Migration													(1) <br>
 	(a)	command: enable-migrations
-5. Adding migration													(*)
+5. Adding migration													(*) <br>
 	(a) command: add-migration [name]
-6. Updating database												(*)
+6. Updating database												(*) <br>
 	(a) command: update-database
 	
 [migration -> code to sql]
