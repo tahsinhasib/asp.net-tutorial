@@ -44,9 +44,6 @@ Contents
 <p><i>(1 -> once, *-> can be done multiple times throughout the project)</i></p>
 <div>
 	<ol>
-		<li>Installing EF to project via nuget (needs internet connection)	(1)</li>
-		<li>Initiate Model (Table, Classes & Context)				(1)</li>
-		<li>Define Connection String in web.config of solution file		(1)</li>
 		<li>Enable Migration							(1)</li>
 		<ol>
 			<li>command: <code>enable-migrations</code></li>
@@ -61,6 +58,32 @@ Contents
 		</ol>
 	</ol>
 [migration -> code to sql]
+</div>
+
+<h2>Steps for Codefirst Setup</h2>
+<div>
+	<table>
+		<tr>
+			<td><b>Steps</b></td>
+			<td><b>Frequency</b></td>
+			<td><b>Breakdown</b></td>
+		</tr>
+		<tr>
+			<td>1. Installing EF to project via nuget (needs internet connection)</td>
+			<td>1</td>
+			<td>Right click on <b>AppFolder</b> -> Manage nuget package -> Browse -> Search for <b>EntityFramework</b> -> Install</td>
+		</tr>
+		<tr>
+			<td>2. Initiate Model (Table, Classes & Context)</td>
+			<td>1</td>
+			<td>Create directory: App/EF -> <code>ExampleContext.cs  </code></td>
+		</tr>
+		<tr>
+			<td>3. Define connection string in <code>Web.config</code> of solution file</td>
+			<td>1</td>
+			<td></td>
+		</tr>
+	</table>
 </div>
 
 
