@@ -21,7 +21,7 @@ Contents
 	</p>
 	<b>Step - 2</b>
 	<p>Add views for the created methods. For <code>Portfolio</code> the views are <code>Education</code> <code>Qualifications</code> <code>References</code>
-	</p>.
+	</p>
 	<b>Step - 3</b>
 	<div>
 		<img src="screenshots/intromvc_2.jpg" width="30%">
@@ -41,6 +41,7 @@ Contents
 Contents
 
 <h2>Steps for code first approach</h2>
+<p><i>(1 -> once, *-> can be done multiple times throughout the project)</i></p>
 <div>
 	<ol>
 		<li>Installing EF to project via nuget (needs internet connection)	(1)</li>
@@ -48,15 +49,15 @@ Contents
 		<li>Define Connection String in web.config of solution file		(1)</li>
 		<li>Enable Migration							(1)</li>
 		<ol>
-			<li>command: enable-migrations</li>
+			<li>command: <code>enable-migrations</code></li>
 		</ol>
   		<li>Adding Migration							(*)</li>
 		<ol>
-			<li>command: add-migration [name]</li>
+			<li>command: <code>add-migration [name]</code></li>
 		</ol>
 		<li>Updating database							(*)</li>
 		<ol>
-			<li>command: update-database</li>
+			<li>command: <code>update-database</code></li>
 		</ol>
 	</ol>
 [migration -> code to sql]
