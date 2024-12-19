@@ -71,19 +71,18 @@ Contents
 		<tr>
 			<td>1. Installing EF to project via nuget (needs internet connection)</td>
 			<td>1</td>
-			<td>Right click on <b>AppFolder</b> -> Manage nuget package -> Browse -> Search for <b>EntityFramework</b> -> Install</td>
+			<td>Right click on <b>WebApplication</b> folder -> Manage nuget package -> Browse -> Search for <b>EntityFramework</b> -> Install</td>
 		</tr>
 		<tr>
 			<td>2. Initiate Model (Table, Classes & Context)</td>
 			<td>1</td>
-			<td>Create directory: App/EF -> <code>ExampleContext.cs  </code></td>
+			<td>Create directory: <b>WebApplication/EF/Tables</b> -> <code>Example.cs</code>, <code>ExampleContext.cs  </code></td>
 		</tr>
 		<tr>
 			<td>3. Define connection string in <code>Web.config</code> of solution file</td>
 			<td>1</td>
-			<td></td>
+			<td><img src="/"</td>
 		</tr>
 	</table>
 </div>
-
 
