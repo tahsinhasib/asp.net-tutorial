@@ -7,7 +7,7 @@ namespace CodeFirstWebApplication.EF.Tables
 {
     public class Department
     {
-        public int DeptId { get; set; }
+        public int Id { get; set; }
         public string DeptName { get; set; }
     }
 }
