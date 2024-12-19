@@ -37,29 +37,6 @@ Contents
 </div>
 
 
-## Code first approach
-Contents
-
-<h2>Steps for code first approach</h2>
-<p><i>(1 -> once, *-> can be done multiple times throughout the project)</i></p>
-<div>
-	<ol>
-		<li>Enable Migration							(1)</li>
-		<ol>
-			<li>command: <code>enable-migrations</code></li>
-		</ol>
-  		<li>Adding Migration							(*)</li>
-		<ol>
-			<li>command: <code>add-migration [name]</code></li>
-		</ol>
-		<li>Updating database							(*)</li>
-		<ol>
-			<li>command: <code>update-database</code></li>
-		</ol>
-	</ol>
-[migration -> code to sql]
-</div>
-
 <h2>Steps for Codefirst Setup</h2>
 <div>
 	<table>
@@ -76,12 +53,33 @@ Contents
 		<tr>
 			<td>2. Initiate Model (Table, Classes & Context)</td>
 			<td>1</td>
-			<td>Create directory: <b>WebApplication/EF/Tables</b> -> <code>Example.cs</code>, <code>ExampleContext.cs  </code></td>
+			<td>Create directory: <b>WebApplication/EF/Tables</b> -> <code>Example.cs</code>, <code>ExampleContext.cs</code> later inherit <code>ExampleContext : DbContext</code></td>
 		</tr>
 		<tr>
 			<td>3. Define connection string in <code>Web.config</code> of solution file</td>
 			<td>1</td>
-			<td><img src="/"</td>
+			<td><img src="screenshots/connectionstring.jpg"></td>
+		</tr>
+		<tr>
+			<td>4. Enable Migration</td>
+			<td>1</td>
+			<td>
+				Go to Tools -> NuGet package manager -> package manager console <br> command: <code>enable-migration</code>
+			</td>
+		</tr>
+		<tr>
+			<td>5. Adding Migration</td>
+			<td>*</td>
+			<td>
+				Go to Tools -> NuGet package manager -> package manager console <br> command: <code>add-migration [name]</code>
+			</td>
+		</tr>
+		<tr>
+			<td>6. Updating Database</td>
+			<td>*</td>
+			<td>
+				Go to Tools -> NuGet package manager -> package manager console <br> command: <code>update-database</code>
+			</td>
 		</tr>
 	</table>
 </div>
