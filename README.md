@@ -91,7 +91,45 @@ Contents
 
 
 
-
+<h2>Steps for Codefirst Setup</h2>
+<div>
+	<table>
+		<tr>
+			<td><b>Steps</b></td>
+			<td><b>Breakdown</b></td>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>Create ASP.NET WebApp with Empty</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>Solution -> Create New Project -> Class Library (.NET Framework) -> BLL -> Next</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>Solution -> Create New Project -> Class Library (.NET Framework) -> DLL -> Next</td>
+		</tr>
+		<tr>
+			<td>4. Enable Migration</td>
+			<td>
+				Go to Tools -> NuGet package manager -> package manager console <br> command: <code>enable-migration</code>
+			</td>
+		</tr>
+		<tr>
+			<td>5. Adding Migration</td>
+			<td>
+				Go to Tools -> NuGet package manager -> package manager console <br> command: <code>add-migration [name]</code>
+			</td>
+		</tr>
+		<tr>
+			<td>6. Updating Database</td>
+			<td>
+				Go to Tools -> NuGet package manager -> package manager console <br> command: <code>update-database</code>
+			</td>
+		</tr>
+	</table>
+</div>
 
 
 
