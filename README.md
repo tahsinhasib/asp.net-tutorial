@@ -91,7 +91,7 @@ Contents
 
 
 
-<h2>Steps for Codefirst Setup</h2>
+<h2>Steps for N-Layer Application</h2>
 <div>
 	<table>
 		<tr>
@@ -111,21 +111,31 @@ Contents
 			<td>Solution -> Create New Project -> Class Library (.NET Framework) -> DLL -> Next</td>
 		</tr>
 		<tr>
-			<td>4. Enable Migration</td>
+			<td>4</td>
 			<td>
-				Go to Tools -> NuGet package manager -> package manager console <br> command: <code>enable-migration</code>
+				<code>ExampleProject</code> -> Add -> Reference -> <code>BLL</code> -> Add -> Reference -> <code>DLL</code>
 			</td>
 		</tr>
 		<tr>
-			<td>5. Adding Migration</td>
+			<td>5</td>
+			<td>Build Solution</td>
+		</tr>
+		<tr>
+			<td>6</td>
 			<td>
-				Go to Tools -> NuGet package manager -> package manager console <br> command: <code>add-migration [name]</code>
+				Controller -> Add -> <code>ExampleController.cs</code>
 			</td>
 		</tr>
 		<tr>
-			<td>6. Updating Database</td>
+			<td>7</td>
 			<td>
-				Go to Tools -> NuGet package manager -> package manager console <br> command: <code>update-database</code>
+				BLL -> Create Folder -> <b>Services</b> -> <code>ExampleServices.cs</code> -> (change internal to public in the file) 
+			</td>
+		</tr>
+		<tr>
+			<td>8</td>
+			<td>
+				DLL -> Create Folder -> <b>Repos</b> -> <code>ExampleRepo.cs</code> -> (change internal to public in the file) 
 			</td>
 		</tr>
 	</table>
