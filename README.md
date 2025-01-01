@@ -36,7 +36,7 @@ Contents
 	</p>
 </div>
 
-
+<!-- Section - 2 -->
 <h2>Steps for Codefirst Setup</h2>
 <div>
 	<table>
@@ -83,4 +83,16 @@ Contents
 		</tr>
 	</table>
 </div>
+
+
+<!-- Section - 3 -->
+<h2>N-Layer Application</h2>
+<img src="screenshots/ntier.jpg">
+
+
+
+
+
+
+
 
