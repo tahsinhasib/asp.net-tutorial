@@ -29,9 +29,9 @@ namespace DLL.Repos
             db.SaveChanges();
         }
 
-        public Student Get(int id)
+        public Student Get(int StudentID)
         {
-            return db.Students.Find(id);
+            return db.Students.Find(StudentID);
         }
 
         public List<Student> Get()
@@ -39,9 +39,9 @@ namespace DLL.Repos
             return db.Students.ToList();
         }
 
-        public void Delete(int id)
+        public void Delete(int StudentID)
         {
-            var exobj = Get(id);
+            var exobj = Get(StudentID);
             db.Students.Remove(exobj);
             db.SaveChanges();
         }
