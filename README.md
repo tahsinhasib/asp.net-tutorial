@@ -100,7 +100,7 @@ Contents
 		</tr>
 		<tr>
 			<td>1</td>
-			<td>Create ASP.NET WebApp with Empty</td>
+			<td>Create ASP.NET WebApp with Empty (checked WebAPI only)</td>
 		</tr>
 		<tr>
 			<td>2</td>
@@ -135,7 +135,25 @@ Contents
 		<tr>
 			<td>8</td>
 			<td>
-				DLL -> Create Folder -> <b>Repos</b> -> <code>ExampleRepo.cs</code> -> (change internal to public in the file) 
+				DLL -> Create Folder -> <b>Repos</b> -> <code>ExampleRepo.cs</code> -> (change internal to public in the file) (number of table = number of repos)
+			</td>
+		</tr>
+		<tr>
+			<td>9</td>
+			<td>
+				BLL -> Create Folder -> <b>DTOs</b> -> Add -> <code>ExampleDTO.cs</code> -> (change internal to public in the file) 
+			</td>
+		</tr>
+		<tr>
+			<td>10</td>
+			<td>
+				DLL -> Create Folder -> <b>EF</b> -> Add -> <code>Example.cs</code>, <code>ExampleContext.cs</code> -> (change internal to public in the file) 
+			</td>
+		</tr>
+		<tr>
+			<td>11</td>
+			<td>
+				DLL, Application (both 1st and 3rd) -> Manage Nuget Package -> Install Entity Framework
 			</td>
 		</tr>
 	</table>
