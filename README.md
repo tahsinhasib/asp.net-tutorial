@@ -9,32 +9,63 @@ Contents
 	<li><a href="#">Entity Framework with DTO</a></li>
 </ul>
 
+
+
+
+
+<h2>Introduction to MVC</h2>
 <div>
-	<h2>Introduction to MVC</h2>
-	<div>
-		<img src="screenshots/intromvc_1.jpg" width="20%">
-	</div>
-	<b>Step - 1</b>
-	<p>
-	Create <code>PortfolioController</code> first with the necessary methods <code>Bio</code> <code>Education</code> <code>Qualifications</code> <code>References</code>.
+	<table>
+		<tr>
+			<td><b>Steps</b></td>
+			<td><b>Breakdown</b></td>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>
+				Create <code>PortfolioController</code> first with the necessary methods <code>Bio</code> <code>Education</code> <code>Qualifications</code> <code>References</code>.
 	Again create <code>ProductController</code> with the methods <code>Create</code> & <code>List</code>.
-	</p>
-	<b>Step - 2</b>
-	<p>Add views for the created methods. For <code>Portfolio</code> the views are <code>Education</code> <code>Qualifications</code> <code>References</code>
-	</p>
-	<b>Step - 3</b>
-	<div>
-		<img src="screenshots/intromvc_2.jpg" width="30%">
-	</div>
-	<i>Models -> Add -> Class</i>
-	<p>
+			</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>
+				Add views for the created methods. For <code>Portfolio</code> the views are <code>Education</code> <code>Qualifications</code> <code>References</code>
+			</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>
+				<b><i>Models -> Add -> Class</i></b>.
 	Create <code>Degree.cs</code>, <code>Referee.cs</code> in the Models folder created by IDE. These files will contain the properties for initialization
-	</p>
-	<b>Step - 4</b>
-	<p>
-	Import <code>using IntroMVC.Models</code> in <code>PortfolioController.cs</code>
-	</p>
+			</td>
+		</tr>
+		<tr>
+			<td>4</td>
+			<td>
+				Import <code>using IntroMVC.Models</code> in <code>PortfolioController.cs</code>
+			</td>
+		</tr>
+	</table>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <!-- Section - 2 -->
 <h2>Steps for Codefirst Setup</h2>
@@ -85,9 +116,19 @@ Contents
 </div>
 
 
+
+
+
+
+
+
+
+
+
 <!-- Section - 3 -->
 <h2>N-Layer Application</h2>
 <img src="screenshots/ntier.jpg">
+
 
 
 
@@ -154,6 +195,12 @@ Contents
 			<td>11</td>
 			<td>
 				DLL, Application (both 1st and 3rd) -> Manage Nuget Package -> Install Entity Framework
+			</td>
+		</tr>
+		<tr>
+			<td>12</td>
+			<td>
+				Tools -> Package Manager Console -> Set dropdown to DLL -> command: <code>enable-migrations</code>, <code>add-migration [MN]</code>, <code>update-database</code>
 			</td>
 		</tr>
 	</table>
