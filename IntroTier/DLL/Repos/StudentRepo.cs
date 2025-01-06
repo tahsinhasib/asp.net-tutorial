@@ -7,15 +7,8 @@ using System.Threading.Tasks;
 
 namespace DLL.Repos
 {
-    public class StudentRepo
+    public class StudentRepo : Repo
     {
-        UMSContext db;
-
-        public StudentRepo()
-        {
-            db = new UMSContext();
-        }
-
         public void Create(Student s)
         {
             db.Students.Add(s);
