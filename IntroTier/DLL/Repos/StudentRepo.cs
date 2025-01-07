@@ -1,4 +1,5 @@
 ﻿using DLL.EF;
+using DLL.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DLL.Repos
 {
-    public class StudentRepo : Repo
+    internal class StudentRepo : Repo, IStudentRepo
     {
         public void Create(Student s)
         {
@@ -39,7 +40,9 @@ namespace DLL.Repos
             db.SaveChanges();
         }
 
-
-
+        public void Add(Student s)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
