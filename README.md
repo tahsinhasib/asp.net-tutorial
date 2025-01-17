@@ -203,6 +203,12 @@ Contents
 				Tools -> Package Manager Console -> Set dropdown to DLL -> command: <code>enable-migrations</code>, <code>add-migration [MN]</code>, <code>update-database</code>
 			</td>
 		</tr>
+		<tr>
+			<td>13</td>
+			<td>
+				BLL -> Manage Nuget Package -> Install AutoMapper by Jimmy Boger v10.0.0
+			</td>
+		</tr>
 	</table>
 </div>
 
